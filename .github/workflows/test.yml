@@ -6,6 +6,13 @@ jobs:
   test:
     runs-on: ubuntu-latest
     
+    env:
+      DB_NAME: testdb
+      DB_USER: testuser
+      DB_PASS: testpass
+      DB_HOST: localhost
+      DB_PORT: 5432
+    
     steps:
         - name: Checkout
           uses: actions/checkout@v3
