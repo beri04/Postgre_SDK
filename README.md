@@ -39,18 +39,22 @@ Postgre_SDK/
 │── .github/
 │   └── workflows/
 │       └── test.yml         # GitHub Actions workflow
+│
 │── postgres_sdk/
 │   ├── __init__.py          # Package initializer
 │   ├── crud.py              # CRUD operations
 │   ├── db.py                # Database connection handler
+│
 │── tests/
 │   └── test_crud.py         # Unit tests with pytest
+│
 │── .env                     # Local environment variables (not committed)
 │── .env.example             # Example environment file
 │── requirements.txt         # Python dependencies
 │── LICENSE                  # License file
 │── README.md                # Project documentation
 │── .gitignore               # Git ignore rules
+
 
 
 # 🧪 Running Tests
