@@ -35,6 +35,8 @@ delete_row("students", "name = 'Saksham'")
 
 
 # 📂 Project Structure
+```bash
+
 Postgre_SDK/
 │── .github/
 │   └── workflows/
@@ -54,12 +56,11 @@ Postgre_SDK/
 │── LICENSE                  # License file
 │── README.md                # Project documentation
 │── .gitignore               # Git ignore rules
-
+```
 
 
 # 🧪 Running Tests
-Run all tests with:
-pytest
+Run all tests with: pytest
 
 
 # 🤝 Contributing
